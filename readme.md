@@ -23,11 +23,9 @@ Sebagai salah satu mini project dari Webinar Revou Fundamental Course: Software 
 3. Klik [Konversi]. Akan keluar hasil konversi dari Celcius ke Fahrenheit
 
 > [!NOTE]
-> *Klik [Reset] untuk mereset semua nilai.
-> 
-> Klik [Reverse] untuk menghitung konversi dari Fahrenheit ke Celcius
-> 
-> Aplikasi website ini dibuat dengan sepenuh hati dan perasaan menyenangkan menggunakan Visual Studio Code 2019, HTML, CSS, dan Javascript
+> - Klik [Reset] untuk mereset semua nilai.
+> - Klik [Reverse] untuk menghitung konversi dari Fahrenheit ke Celcius
+> - Aplikasi website ini dibuat dengan sepenuh hati dan perasaan menyenangkan menggunakan Visual Studio Code 2019, HTML, CSS, dan Javascript
 
 ![Logo](https://fikriahmad.my.id/wp-content/uploads/2024/02/logo_fikriahmadv2_blue.png)
 
