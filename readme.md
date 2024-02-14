@@ -10,10 +10,10 @@ Sebagai salah satu mini project dari Webinar Revou Fundamental Course: Software 
 
 ## Instalasi
 1. Clone repository ini
-> $ git clone https://github.com/revou-fundamental-course/5-feb-24-afikri99.git
+``` $ git clone https://github.com/revou-fundamental-course/5-feb-24-afikri99.git ```
 
 2. Masuk ke dalam folder repository yang telah diclone ke dalam folder lokal
-> $ cd 5-feb-24-afikri99
+``` $ cd 5-feb-24-afikri99 ```
 
 3. Buka index.html dan website muncul
 
