@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konversi Suhu | Ahmad Fikri</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+        <div class="spacing"></div>
+        <img src="assets/logo_fikriahmadv2_white.png" width=195 alt="Ahmad Fikri">
+        <h2>Website Konversi Suhu</h2>
+        <p>Masukkan suhu derajat Celcius (°C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+    </center>
+    <section class="mycontainer" cellspacing="25">
+        <table>
+            <tr>
+                <td rowspan="3" width="40%">
+                    <label class="derajat">Celcius (°C)</label>
+                    <label id="messagesCelcius">Tolong diisi terlebih dahulu</label>
+                    <input type="number" class="myinput" id="inputCelcius">
+                </td>
+                <td width="20%"><button class="mybutton konversi" id="btnKonversi">Konversi</button></td>
+                <td rowspan="3" width="40%">
+                    <label class="derajat">Fahrenheit (°F)</label>
+                    <label id="messagesFahrenheit">Tolong diisi terlebih dahulu</label>
+                    <input type="number" class="myinput" id="inputFahrenheit">
+                </td>
+            </tr>
+            <tr>
+                <td><button class="mybutton reset" id="btnReset">Reset</button></td>
+                
+            </tr>
+            <tr>
+                <td><button class="mybutton reverse" id="btnReverse">Reverse</button></td>
+                
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p></p>
+                    <label class="derajat">Cara Kalkulasi</label>
+                    <input type="text" class="myinput" id="carakalkulasi" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Cara Konversi Celcius (°C) ke Fahrenheit (°F)</p>
+                    <button class="mybutton konversi" id="btnShow">Lihat Penjelasan</button>
+                    <p></p>
+                    <div id="penjelasan">
+<p>Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu dalam derajat Celcius (°C) kali 9/5 tambah 32.</p>
+    <span id="rumus">S(°F) = (S(°C) x 9/5) + 32</span>
+    <p>atau</p>
+    <span id="rumus">S(°F) = (S(°C) x 1.8) + 32</span>
+
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                <small>
+                    Ahmad Fikri<br>
+                    Email: afikri99@gmail.com<br>
+                    Github: github.com/afikri99<br>
+                    Discord: thefik.fikri 
+
+                </small></td>
+                <td style="text-align: right;vertical-align: baseline;"><small>Revou Fundamental Course: Software Engineering<br/>Revou Brief_SEFC_H</small></td>
+            </tr>
+        </table>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

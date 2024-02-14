@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{font-family: Poppins;}
+    body{
+        background-color: #1C1C1C;
+    }
+    *,p,h1,h2,h3,h4,h5,h6{
+        color:white
+    }
+    div.spacing{
+        padding: 1.25em;
+    }
+    .mycontainer{
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myinput{
+        background-color: #454545;
+        color: whitesmoke;
+        max-width: 100%;
+        min-width: 100%;
+        border: 0;
+        border-radius: 8px;
+        font-size: 30px;
+        text-align: center;
+        padding: 1.45em 0;
+    }
+    button.mybutton {
+        width: 100%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 18px;
+        padding: 0.25em 0px;
+        border: 0;
+        transition: 0.1s;
+    }
+    button.mybutton:hover{
+        cursor: pointer;
+        color: white;
+        background: rgb(74, 74, 255);
+        transition: 0.2s;
+    }
+    .mybutton.konversi{
+        background: #DD3500;
+        color: white;
+    }
+    .mybutton.reset{
+        background: white;
+        color: black;
+    }
+    .mybutton.reverse{background: yellow;
+        color: black;
+    }
+    div#penjelasan{
+        display: none;
+        background-color: rgb(74, 74, 255);
+        color: white;
+        border-radius: 8px;
+        padding: 1.25em;
+        transition: 0.5s;
+    }
+    label.derajat{ 
+        position: absolute; 
+        padding: 1.25em; 
+        font-size: 15px; 
+    }
+    label#messagesFahrenheit,label#messagesCelcius {
+        position: absolute;
+        padding: 1.25em;
+        margin-top: 5em;
+        color: #ff5147;
+        display: none;
+    }
+    table{
+        width: 100%;
+    }
+    td{
+        padding:5px;
+    }
+    span#rumus {
+        font-size: 32px;
+        font-weight: 900;
+        border-radius: 4px;
+        padding: 3px;
+        display: inline-block;
+        border-bottom: 1px solid white;
+    }
+    .myinput,.mybutton{box-shadow: 0px 0px 10px #ffffff54;}
